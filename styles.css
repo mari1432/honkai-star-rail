@@ -110,3 +110,32 @@ body {
   display: block;
   text-align: right;
 }
+
+.action-text {
+  font-size: 24px;
+}
+
+.action-btn {
+  font-size: 18px;
+  border-radius: 0.5rem;
+  padding: 10px 15px;
+  color: #a28851;
+  border-color: #a28851;
+  border-width: 1px;
+  border-style: solid;
+  text-decoration: none;
+}
+
+.action {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15% 20%;
+  padding: 2rem 7%;
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.action-body {
+  flex-grow: 1;
+}
