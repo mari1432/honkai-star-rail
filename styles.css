@@ -1,13 +1,26 @@
 .nav-bar-link {
   font-size: 18px;
   color: #fff;
+  text-decoration: none;
+}
+.nav-bar-link:hover {
+  color: #307af7;
 }
 
 .nav-bar {
   background-color: #121212;
   color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  gap: 20px;
 }
 
 .nav-bar-logo {
   font-size: 24px;
+  background: linear-gradient(#e66465, #9198e5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-right: auto;
 }
