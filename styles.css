@@ -92,3 +92,21 @@ body {
 .character-name {
   width: 150px;
 }
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  display: block;
+}
+
+.quote {
+  font-weight: bold;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.quote-cite {
+  display: block;
+  text-align: right;
+}
