@@ -37,6 +37,7 @@ body {
   padding-right: 10%;
   gap: 5%;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 .hero-image {
@@ -63,4 +64,28 @@ body {
 .hero-body {
   flex-basis: 0;
   flex-grow: 1;
+}
+
+.characters {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.character-img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.character-gallery {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.character-name {
+  width: 150px;
 }
